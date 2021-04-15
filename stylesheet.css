@@ -1,0 +1,27 @@
+/* Created by The Young Programmer🏅 */
+
+html {
+  color: darkcyan;
+}
+
+div#memory_board {
+  background: lightsteelblue;
+  border: darkcyan 1px solid; 
+  width: 400px;
+  height: 600px;
+  padding: 24px;
+  margin: 0px auto;
+}
+
+div#memory_board > div {
+  border: darkcyan 1px solid; 
+  width: 40px;
+  height: 40px;
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  font-size: 60px;
+  cursor: pointer;
+  text-align: center;
+}
+
