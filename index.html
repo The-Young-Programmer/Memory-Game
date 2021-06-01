@@ -4,6 +4,7 @@
 <head>
   <title> Memory Game </title>
   <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script>
     var memory_array = ['A','A','B','B','C', 'C', 'D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L','M','M','N','N','O','O','P','P','Q','Q','R','R','S','S'];
     var memory_values = [];
@@ -49,7 +50,7 @@
              memory_tile_ids = [];
             
              if(tiles_flipped == memory_array.length){
-                alert("Board cleared");
+                swal("Congratulations 🎊 You Won","Click OK to cointinue !", "success");
                 document.getElementById('memory_board').innerHTML = "";
                 newBoard();
               }
